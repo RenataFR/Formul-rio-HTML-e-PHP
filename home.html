@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage formulary</title>
+	<style>
+        {
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(fundo-roxo-vetor.jpg);
+            background-color: rgb(242, 161, 245);
+            width: 100%;
+            height: 100%;
+        }
+
+        #formulario{
+            background-color: #DDA0DD;
+            width: 300px;
+            height: 180px;
+            margin: 100px auto 50px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+	 
+        <form action="pagina2.php" method="post" id="formulario">
+			<h3>Login</h3>
+            <input type="text" placeholder= "login" name="login"/>
+            <br/>
+            <input type="password" placeholder= "password" name="senha"/>
+            <br/>
+            <input type="submit" value="Enviar"/>
+
+        </form>
+        <form method="delete">
+            <input type="submit" name="cancelar" value="Cancelar"/>
+        </form>
+        <script>
+
+    </script>
+</body>
+</html>
