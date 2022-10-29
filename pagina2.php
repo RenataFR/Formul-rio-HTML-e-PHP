@@ -27,7 +27,7 @@
 			if ($login == null || $senha == null) {
 				echo "Login e senha são campos de preenchimento obrigatório";
 			} else {
-				echo "Seja Bem Vindo $login";
+				echo "Seja Bem Vindo(a) $login";
 			
 			}
 		?>
